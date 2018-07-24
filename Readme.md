@@ -23,5 +23,5 @@ https://github.com/MichaelDimmitt/spacediffs-for-apple-natgeo-images-/commit/a35
 
 clone this repo and run:
 ```bash
-rm experiment2.txt; cp spacediff.md experiment2.txt; . replace_colors.sh specific_colors
+rm experiment3.txt; cp spacediff.md experiment3.txt; . replace_colors.sh specific_colors; sed 's/..$//' < experiment3.txt > experiment3.txt
 ```
